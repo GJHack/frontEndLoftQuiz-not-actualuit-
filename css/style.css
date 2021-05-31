@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+body {
+	background: #9bbbfd;
+}
+.logoQuiz {
+	position: absolute;
+	top: 10vh;
+	left: 40wh;
+	transform: scale(20%);
+	filter: opacity(0);
+	transition: all 1s;
+	z-index: 9999999;
+}
+.firstMessage {
+	color: white;
+}
+.present0 {
+	filter: opacity(1);
+	color: #ede1e1;
+	letter-spacing: 0.4em;
+	font-family: "Sigmar One";
+	position: absolute;
+	font-size: 300%;
+	text-shadow: 2px 0 4px #3d3d3d;
+	top: 30vh;
+	left: 5%;
+	transition: all 1s;
+}
+.present1 {
+	filter: opacity(1);
+	color: #ede1e1;
+	letter-spacing: 0.4em;
+	font-family: "Sigmar One";
+	position: absolute;
+	font-size: 300%;
+	text-shadow: 2px 0 4px #3d3d3d;
+	top: 50vh;
+	left: 67%;
+	transition: all 1s;
+}
